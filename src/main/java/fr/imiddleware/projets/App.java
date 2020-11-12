@@ -9,7 +9,7 @@ import org.apache.maven.plugins.annotations.Mojo;
  *
  */
 
-@Mojo( name = "NewMavenGoal")
+
 public class App 
 {
     public static void main( String[] args )
