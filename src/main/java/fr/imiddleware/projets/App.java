@@ -1,9 +1,6 @@
 package fr.imiddleware.projets;
 import java.util.logging.Logger;
 
-import org.apache.maven.plugin.AbstractMojo;
-import org.apache.maven.plugin.MojoExecutionException;
-import org.apache.maven.plugins.annotations.Mojo;
 /**
  * Hello world!
  *
@@ -24,7 +21,5 @@ public class App
         Logger log = Logger.getLogger("myFirstLog");
         log.info("---------------" + messageinput);
         
-        
-
     }
 }
